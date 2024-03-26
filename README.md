@@ -36,12 +36,21 @@ Notebooks in order to run, require
 * access to codebase that will be analysed. Paths can be provided in notebooks.
 
 
+## Launching langchain app
+
+```
+cd langserve
+langchain serve
+```
+NOTE: make sure to provide the required settings in `.env`
+
 
 ## Launching jupyter notebooks:
 
 ```bash
 jupyter lab
 ```
+
 
 ## Special thanks to
 
